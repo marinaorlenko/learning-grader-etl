@@ -1,0 +1,102 @@
+{
+    "checked_at": "2026-10-13T11:33:54.319582+00:00",
+    "mode": "months",
+    "previous_findings": {
+        "yearly": {
+            "2020-2021": "Успешные ответы, 0 записей",
+            "2022": "ReadTimeout и HTTP 502",
+            "2023-2026": "HTTP 502"
+        },
+        "monthly": {
+            "2022-01/2022-09": "Успешные ответы, 0 записей",
+            "2022-10": "ReadTimeout"
+        },
+        "daily": {
+            "2022-10-01": 0,
+            "2022-10-02": 22
+        }
+    },
+    "first_previously_found_date": "2022-10-02",
+    "results": [
+        {
+            "start": "2022-01-01T00:00:00+00:00",
+            "end": "2022-02-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-02-01T00:00:00+00:00",
+            "end": "2022-03-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-03-01T00:00:00+00:00",
+            "end": "2022-04-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-04-01T00:00:00+00:00",
+            "end": "2022-05-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-05-01T00:00:00+00:00",
+            "end": "2022-06-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-06-01T00:00:00+00:00",
+            "end": "2022-07-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-07-01T00:00:00+00:00",
+            "end": "2022-08-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-08-01T00:00:00+00:00",
+            "end": "2022-09-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-09-01T00:00:00+00:00",
+            "end": "2022-10-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-10-01T00:00:00+00:00",
+            "end": "2022-11-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 45662,
+            "error": null,
+            "attempts": 1
+        }
+    ]
+}

@@ -218,3 +218,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment files
+.env.*
+!.env.example
+
+# ETL logs
+logs/*
+!logs/.gitkeep
+
+# macOS
+.DS_Store
+
+# Data
+data/*
+!data/sample_response.json
+!data/research/
+
+# Google OAuth and tokens
+credentials/
+token.json
+google_oauth.json
+spreadsheet_id.json
+
+# Logs
+logs/
+*.log

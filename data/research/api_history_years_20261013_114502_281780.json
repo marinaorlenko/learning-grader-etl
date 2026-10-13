@@ -1,0 +1,78 @@
+{
+    "checked_at": "2026-10-13T11:45:02.281780+00:00",
+    "mode": "years",
+    "previous_findings": {
+        "yearly": {
+            "2020-2021": "Успешные ответы, 0 записей",
+            "2022": "ReadTimeout и HTTP 502",
+            "2023-2026": "HTTP 502"
+        },
+        "monthly": {
+            "2022-01/2022-09": "Успешные ответы, 0 записей",
+            "2022-10": "ReadTimeout"
+        },
+        "daily": {
+            "2022-10-01": 0,
+            "2022-10-02": 22
+        }
+    },
+    "first_previously_found_date": "2022-10-02",
+    "results": [
+        {
+            "start": "2020-01-01T00:00:00+00:00",
+            "end": "2021-01-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2021-01-01T00:00:00+00:00",
+            "end": "2022-01-01T00:00:00+00:00",
+            "status": "success",
+            "records_count": 0,
+            "error": null,
+            "attempts": 1
+        },
+        {
+            "start": "2022-01-01T00:00:00+00:00",
+            "end": "2023-01-01T00:00:00+00:00",
+            "status": "error",
+            "records_count": null,
+            "error": "HTTPSConnectionPool(host='api.itresume.ru', port=443): Read timed out. (read timeout=30)",
+            "attempts": 2
+        },
+        {
+            "start": "2023-01-01T00:00:00+00:00",
+            "end": "2024-01-01T00:00:00+00:00",
+            "status": "error",
+            "records_count": null,
+            "error": "HTTPSConnectionPool(host='api.itresume.ru', port=443): Read timed out. (read timeout=30)",
+            "attempts": 2
+        },
+        {
+            "start": "2024-01-01T00:00:00+00:00",
+            "end": "2025-01-01T00:00:00+00:00",
+            "status": "error",
+            "records_count": null,
+            "error": "HTTPSConnectionPool(host='api.itresume.ru', port=443): Read timed out. (read timeout=30)",
+            "attempts": 2
+        },
+        {
+            "start": "2025-01-01T00:00:00+00:00",
+            "end": "2026-01-01T00:00:00+00:00",
+            "status": "error",
+            "records_count": null,
+            "error": "HTTPSConnectionPool(host='api.itresume.ru', port=443): Read timed out. (read timeout=30)",
+            "attempts": 2
+        },
+        {
+            "start": "2026-01-01T00:00:00+00:00",
+            "end": "2027-01-01T00:00:00+00:00",
+            "status": "error",
+            "records_count": null,
+            "error": "502 Server Error: Bad Gateway for url: https://api.itresume.ru/statistics?client=Skillfactory&client_key=M2MGWS&start=2026-01-01+00%3A00%3A00.000000&end=2027-01-01+00%3A00%3A00.000000",
+            "attempts": 2
+        }
+    ]
+}
